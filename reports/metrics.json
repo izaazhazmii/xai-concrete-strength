@@ -1,0 +1,19 @@
+{
+  "dataset": "UCI Concrete Compressive Strength (id=165)",
+  "train_samples": 824,
+  "test_samples": 206,
+  "cv_folds": 5,
+  "cv_train_MAE_mean_MPa": 3.8662,
+  "cv_train_MAE_std_MPa": 0.2717,
+  "cv_train_R2_mean": 0.8935,
+  "baseline_test": {
+    "MAE_MPa": 13.0523,
+    "RMSE_MPa": 16.0536,
+    "R2": -0.0002
+  },
+  "random_forest_test": {
+    "MAE_MPa": 4.0122,
+    "RMSE_MPa": 5.6401,
+    "R2": 0.8765
+  }
+}
